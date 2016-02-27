@@ -12,7 +12,7 @@ Pending changes
 - Change pads on Batt and Solar connectors
 - Thermal, regulator gets hot when 5V @ 150mA
 
-Unreleased
+Changes made but not yet tested in production
 - R19 change to 0805
 - Transistor pinout was incorrect, fixed
 - Should be using mega pins 8-15, not pins 7-14 (Not all pins on the Mega and Mega 2560 support change interrupts, so only the following can be used for RX: 10, 11, 12, 13, 14, 15, 50, 51, 52, 53, A8 (62), A9 (63), A10 (64), A11 (65), A12 (66), A13 (67), A14 (68), A15 (69).)
