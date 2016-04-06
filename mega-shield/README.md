@@ -13,6 +13,7 @@ Rev 1.2 - Changes made but not yet tested in production
 - GSM shield bypass pins are out by 1 (should be 2 & 3, not 3 & 4)
 - Change pads on Batt and Solar connectors
 - Change package on xtal
+- Change C7 to 10V
 
 Rev 1.1 - Changes made but not yet tested in production
 - R19 change to 0805
