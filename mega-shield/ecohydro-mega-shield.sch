@@ -333,6 +333,21 @@
 <hole x="-11.6" y="-2.1" drill="1.1"/>
 <hole x="9.5" y="-2.1" drill="1.6"/>
 </package>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="SD-MMC">
@@ -355,6 +370,9 @@
 <pin name="CARD_DETECT" x="-12.7" y="20.32" length="short" direction="pas"/>
 <pin name="COMMON_SW" x="-12.7" y="17.78" length="short" direction="pas"/>
 <pin name="GND" x="-12.7" y="-17.78" length="short" direction="sup"/>
+</symbol>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -422,6 +440,20 @@
 <connect gate="G$1" pin="VSS2" pad="6"/>
 <connect gate="G$1" pin="WRITE_PROTECT" pad="WP"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13170,6 +13202,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805K" value="22nF"/>
 <part name="X1" library="mechanical" deviceset="MKDSN1,5/4-5,08" device=""/>
+<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$3" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$4" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13438,6 +13473,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X1" gate="-2" x="180.34" y="2.54"/>
 <instance part="X1" gate="-3" x="180.34" y="7.62"/>
 <instance part="X1" gate="-4" x="180.34" y="12.7"/>
+<instance part="U$2" gate="G$1" x="-25.4" y="-27.94"/>
+<instance part="U$3" gate="G$1" x="-17.78" y="-27.94"/>
+<instance part="U$4" gate="G$1" x="-10.16" y="-27.94"/>
 </instances>
 <busses>
 <bus name="FETG[7..14]">

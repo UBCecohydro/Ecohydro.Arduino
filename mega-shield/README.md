@@ -6,6 +6,14 @@ RELEASE NOTES
 
 Pending changes
 - Add 2032 battery to BoM
+
+Rev 1.5
+- Add fiducials
+
+Rev 1.4
+- Reduced board size by 2mm to fit 10x10 economy pcb mfg
+
+Rev 1.3 - Changes made but not yet tested in production
 - Thermal, regulator gets hot when 5V @ 150mA
 
 Rev 1.2 - Changes made but not yet tested in production
