@@ -13048,7 +13048,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="A14" library="con-phoenix-381" deviceset="MKDS1/3-3,81" device=""/>
 <part name="A15" library="con-phoenix-381" deviceset="MKDS1/3-3,81" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="JP-A7" library="jumper" deviceset="JP2E" device=""/>
 <part name="JP-A8" library="jumper" deviceset="JP2E" device=""/>
 <part name="JP-A9" library="jumper" deviceset="JP2E" device=""/>
 <part name="JP-A10" library="jumper" deviceset="JP2E" device=""/>
@@ -13056,6 +13055,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP-A12" library="jumper" deviceset="JP2E" device=""/>
 <part name="JP-A13" library="jumper" deviceset="JP2E" device=""/>
 <part name="JP-A14" library="jumper" deviceset="JP2E" device=""/>
+<part name="JP-A15" library="jumper" deviceset="JP2E" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+12V" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="Q1" library="semiconductors" deviceset="IRLM5103" device=""/>
@@ -13291,14 +13291,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="A15" gate="-2" x="96.52" y="-5.08" rot="R270"/>
 <instance part="A15" gate="-3" x="91.44" y="-5.08" rot="R270"/>
 <instance part="GND3" gate="1" x="-104.14" y="-10.16"/>
-<instance part="JP-A7" gate="1" x="-93.98" y="30.48" rot="R90"/>
-<instance part="JP-A8" gate="1" x="-68.58" y="30.48" rot="R90"/>
-<instance part="JP-A9" gate="1" x="-43.18" y="30.48" rot="R90"/>
-<instance part="JP-A10" gate="1" x="-17.78" y="30.48" rot="R90"/>
-<instance part="JP-A11" gate="1" x="10.16" y="30.48" rot="R90"/>
-<instance part="JP-A12" gate="1" x="38.1" y="30.48" rot="R90"/>
-<instance part="JP-A13" gate="1" x="63.5" y="30.48" rot="R90"/>
-<instance part="JP-A14" gate="1" x="88.9" y="30.48" rot="R90"/>
+<instance part="JP-A8" gate="1" x="-93.98" y="30.48" rot="R90"/>
+<instance part="JP-A9" gate="1" x="-68.58" y="30.48" rot="R90"/>
+<instance part="JP-A10" gate="1" x="-43.18" y="30.48" rot="R90"/>
+<instance part="JP-A11" gate="1" x="-17.78" y="30.48" rot="R90"/>
+<instance part="JP-A12" gate="1" x="10.16" y="30.48" rot="R90"/>
+<instance part="JP-A13" gate="1" x="38.1" y="30.48" rot="R90"/>
+<instance part="JP-A14" gate="1" x="63.5" y="30.48" rot="R90"/>
+<instance part="JP-A15" gate="1" x="88.9" y="30.48" rot="R90"/>
 <instance part="SUPPLY1" gate="+12V" x="-88.9" y="50.8"/>
 <instance part="P+6" gate="1" x="-96.52" y="53.34" rot="MR0"/>
 <instance part="Q1" gate="G$1" x="-78.74" y="12.7"/>
@@ -13554,27 +13554,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="43.18" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="38.1" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="JP-A14" gate="1" pin="1"/>
+<pinref part="JP-A15" gate="1" pin="1"/>
 <wire x1="93.98" y1="27.94" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="JP-A7" gate="1" pin="1"/>
+<pinref part="JP-A8" gate="1" pin="1"/>
 <wire x1="-91.44" y1="27.94" x2="-88.9" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="27.94" x2="-88.9" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="JP-A8" gate="1" pin="1"/>
+<pinref part="JP-A9" gate="1" pin="1"/>
 <wire x1="-66.04" y1="27.94" x2="-63.5" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="27.94" x2="-63.5" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="JP-A9" gate="1" pin="1"/>
+<pinref part="JP-A10" gate="1" pin="1"/>
 <wire x1="-40.64" y1="27.94" x2="-38.1" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="27.94" x2="-38.1" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="JP-A10" gate="1" pin="1"/>
+<pinref part="JP-A11" gate="1" pin="1"/>
 <wire x1="-15.24" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="27.94" x2="-12.7" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="JP-A11" gate="1" pin="1"/>
+<pinref part="JP-A12" gate="1" pin="1"/>
 <wire x1="12.7" y1="27.94" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="27.94" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="JP-A12" gate="1" pin="1"/>
+<pinref part="JP-A13" gate="1" pin="1"/>
 <wire x1="40.64" y1="27.94" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="27.94" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="JP-A13" gate="1" pin="1"/>
+<pinref part="JP-A14" gate="1" pin="1"/>
 <wire x1="66.04" y1="27.94" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="27.94" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-88.9" y="38.1"/>
@@ -14089,20 +14089,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="40.64" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="40.64" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="JP-A15" gate="1" pin="3"/>
 <pinref part="JP-A14" gate="1" pin="3"/>
-<pinref part="JP-A13" gate="1" pin="3"/>
 <wire x1="66.04" y1="33.02" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="JP-A12" gate="1" pin="3"/>
+<pinref part="JP-A13" gate="1" pin="3"/>
 <wire x1="40.64" y1="33.02" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="JP-A11" gate="1" pin="3"/>
+<pinref part="JP-A12" gate="1" pin="3"/>
 <wire x1="12.7" y1="33.02" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="JP-A10" gate="1" pin="3"/>
+<pinref part="JP-A11" gate="1" pin="3"/>
 <wire x1="-15.24" y1="33.02" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="JP-A9" gate="1" pin="3"/>
+<pinref part="JP-A10" gate="1" pin="3"/>
 <wire x1="-40.64" y1="33.02" x2="-40.64" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="JP-A8" gate="1" pin="3"/>
+<pinref part="JP-A9" gate="1" pin="3"/>
 <wire x1="-66.04" y1="33.02" x2="-66.04" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="JP-A7" gate="1" pin="3"/>
+<pinref part="JP-A8" gate="1" pin="3"/>
 <wire x1="-91.44" y1="33.02" x2="-91.44" y2="40.64" width="0.1524" layer="91"/>
 <junction x="-66.04" y="40.64"/>
 <junction x="-40.64" y="40.64"/>
@@ -14210,7 +14210,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="-76.2" y1="17.78" x2="-76.2" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="JP-A7" gate="1" pin="2"/>
+<pinref part="JP-A8" gate="1" pin="2"/>
 <wire x1="-76.2" y1="25.4" x2="-76.2" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="30.48" x2="-91.44" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -14222,7 +14222,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="-25.4" y1="17.78" x2="-25.4" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="JP-A9" gate="1" pin="2"/>
+<pinref part="JP-A10" gate="1" pin="2"/>
 <wire x1="-25.4" y1="25.4" x2="-25.4" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="30.48" x2="-40.64" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -14232,7 +14232,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="JP-A14" gate="1" pin="2"/>
+<pinref part="JP-A15" gate="1" pin="2"/>
 <wire x1="91.44" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="Q8" gate="G$1" pin="S"/>
 <wire x1="106.68" y1="30.48" x2="106.68" y2="25.4" width="0.1524" layer="91"/>
@@ -14244,7 +14244,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="JP-A13" gate="1" pin="2"/>
+<pinref part="JP-A14" gate="1" pin="2"/>
 <wire x1="66.04" y1="30.48" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="Q7" gate="G$1" pin="S"/>
 <wire x1="81.28" y1="30.48" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
@@ -14258,7 +14258,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="Q6" gate="G$1" pin="S"/>
 <wire x1="55.88" y1="17.78" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="JP-A12" gate="1" pin="2"/>
+<pinref part="JP-A13" gate="1" pin="2"/>
 <wire x1="55.88" y1="25.4" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -14270,7 +14270,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="Q5" gate="G$1" pin="S"/>
 <wire x1="30.48" y1="17.78" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="JP-A11" gate="1" pin="2"/>
+<pinref part="JP-A12" gate="1" pin="2"/>
 <wire x1="30.48" y1="25.4" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -14283,7 +14283,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="Q4" gate="G$1" pin="S"/>
 <wire x1="2.54" y1="17.78" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="25.4" x2="2.54" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="JP-A10" gate="1" pin="2"/>
+<pinref part="JP-A11" gate="1" pin="2"/>
 <wire x1="2.54" y1="30.48" x2="-15.24" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="25.4" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
@@ -14295,7 +14295,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="-50.8" y1="17.78" x2="-50.8" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="25.4" x2="-50.8" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="JP-A8" gate="1" pin="2"/>
+<pinref part="JP-A9" gate="1" pin="2"/>
 <wire x1="-50.8" y1="30.48" x2="-66.04" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="-55.88" y1="25.4" x2="-50.8" y2="25.4" width="0.1524" layer="91"/>
